@@ -305,6 +305,7 @@ h2.title {
 .webinar {
     padding: 85px 0 51px 0;
     text-align: center;
+    min-height: 511px;
 }
 
 .webinar .first_webinar_title {
@@ -336,4 +337,40 @@ h2.title {
     font-size: 23px;
     font-style: normal;
     font-weight: 400;
+}
+
+footer {
+    text-align: center;
+    min-height: 169px;
+    background-color: #1A1A1A;
+    color: #888;
+    padding: 57px 0 69px 0;
+
+}
+
+footer .footer_hrefs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    text-decoration-line: underline;
+}
+
+footer a {
+    color: #888;
+}
+
+.divider {
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    margin: 0 10px;
+}
+
+footer .footer_text {
+    margin-top: 10px;
 }
