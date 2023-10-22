@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -24,7 +25,6 @@
 .logo .logo_text {
     color: #fff;
     text-align: center;
-    font-family: Roboto;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
@@ -36,7 +36,6 @@
 .title {
     color: #f9bf3b;
     text-align: center;
-    font-family: Roboto;
     font-size: 41px;
     font-style: normal;
     font-weight: 900;
@@ -47,7 +46,6 @@
 .simple .title_big {
     color: #fff;
     text-align: center;
-    font-family: Roboto;
     font-size: 80px;
     font-style: normal;
     font-weight: 900;
@@ -66,7 +64,6 @@ h2.title {
 .promo .promo_text {
     color: #fff;
     text-align: justify;
-    font-family: "Roboto Light";
     font-size: 21px;
     font-style: normal;
     font-weight: 300;
@@ -78,7 +75,6 @@ h2.title {
 
 .promo .promo_text span {
     color: #f9bf3b;
-    font-family: "Roboto - Bold";
     font-size: 21px;
     font-weight: 700;
 }
@@ -95,7 +91,6 @@ h2.title {
     color: #fff;
     text-align: center;
     text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
-    font-family: RobotoCondensed;
     font-size: 21px;
     font-style: normal;
     font-weight: 400;
@@ -111,7 +106,6 @@ h2.title {
 .more .more_text {
     color: #fff;
     text-align: center;
-    font-family: "Roboto - Thin";
     font-size: 15px;
     font-style: normal;
     font-weight: 100;
@@ -135,7 +129,6 @@ h2.title {
 .finish .finish_header {
     color: #252525;
     text-align: center;
-    font-family: Roboto;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -145,7 +138,6 @@ h2.title {
 .finish .finish_header {
     color: #EFEFEF;
     text-align: center;
-    font-family: Roboto;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -166,7 +158,6 @@ h2.title {
 .waiting .waiting_subheader {
     color: #4A4A4A;
     text-align: center;
-    font-family: Roboto;
     font-size: 23px;
     font-style: normal;
     font-weight: 400;
@@ -194,7 +185,6 @@ h2.title {
     margin-top: 33px;
     color: #4A4A4A;
     text-align: center;
-    font-family: Roboto;
     font-size: 15px;
     font-style: normal;
     font-weight: 300;
@@ -209,7 +199,6 @@ h2.title {
 .optimization .optimization_header {
     margin-left: 391px;
     color: #299CBD;
-    font-family: "Roboto - Black";
     font-size: 28px;
     font-style: normal;
     font-weight: 900;
@@ -221,7 +210,6 @@ h2.title {
     margin-left: 391px;
     ;
     color: #4A4A4A;
-    font-family: "Roboto Light";
     font-size: 17px;
     font-style: normal;
     font-weight: 300;
@@ -230,7 +218,6 @@ h2.title {
 }
 
 .optimization .optimization_text span {
-    font-family: "Roboto - Bold";
     font-weight: 700;
 }
 
@@ -274,7 +261,6 @@ h2.title {
     color: #EFEFEF;
     margin-top: 25px;
     text-align: center;
-    font-family: Roboto;
     font-size: 17px;
     font-style: normal;
     font-weight: 300;
@@ -292,7 +278,6 @@ h2.title {
     width: 1161px;
     margin-top: 45px;
     color: #252525;
-    font-family: Roboto;
     font-size: 30px;
     font-style: normal;
     font-weight: 400
@@ -311,7 +296,6 @@ h2.title {
 .webinar .first_webinar_title {
     margin-top: 36px;
     color: #252525;
-    font-family: Roboto;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -321,7 +305,6 @@ h2.title {
 .webinar .second_webinar_title {
     margin-top: 25px;
     color: #299CBD;
-    font-family: Roboto;
     font-size: 36px;
     font-style: normal;
     font-weight: 900;
@@ -333,7 +316,6 @@ h2.title {
 .webinar .third_webinar_title {
     margin-top: 25px;
     color: #4A4A4A;
-    font-family: Roboto;
     font-size: 23px;
     font-style: normal;
     font-weight: 400;
@@ -352,7 +334,6 @@ footer .footer_hrefs {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Roboto;
     font-size: 15px;
     font-style: normal;
     font-weight: 300;
@@ -364,7 +345,6 @@ footer a {
 }
 
 .divider {
-    font-family: Roboto;
     font-size: 15px;
     font-style: normal;
     font-weight: 300;
