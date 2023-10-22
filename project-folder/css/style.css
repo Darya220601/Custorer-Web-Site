@@ -7,6 +7,7 @@
 .container {
     width: 1140px;
     margin: 0 auto;
+    position: relative;
 }
 
 .promo {
@@ -82,7 +83,8 @@ h2.title {
     font-weight: 700;
 }
 
-.promo .promo_btn {
+.promo .promo_btn,
+.gift .gift_btn {
     display: block;
     margin: 73px auto;
     background: linear-gradient(0deg, #2798b9 0%, #3ab6da 100%);
@@ -129,7 +131,8 @@ h2.title {
 
 }
 
-.waiting .waiting_header {
+.waiting .waiting_header,
+.finish .finish_header {
     color: #252525;
     text-align: center;
     font-family: Roboto;
@@ -139,7 +142,18 @@ h2.title {
     text-transform: uppercase;
 }
 
-.waiting .waiting_divider {
+.finish .finish_header {
+    color: #EFEFEF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.waiting .waiting_divider,
+.finish .finish_divider {
     background-color: #F9BF3B;
     width: 220px;
     height: 7px;
@@ -200,4 +214,126 @@ h2.title {
     font-style: normal;
     font-weight: 900;
     text-transform: uppercase;
+}
+
+.optimization .optimization_text {
+    margin-top: 25px;
+    margin-left: 391px;
+    ;
+    color: #4A4A4A;
+    font-family: "Roboto Light";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px;
+
+}
+
+.optimization .optimization_text span {
+    font-family: "Roboto - Bold";
+    font-weight: 700;
+}
+
+.optimization .optimization_img {
+    position: absolute;
+    top: -47px;
+    left: -240px;
+    z-index: -1;
+}
+
+.finish {
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('../img/bg/second_bg.jpg'), center center/cover no-repeat
+}
+
+.finish .finish_wrapper {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.finish .finish_wrapper .finish_item {
+    width: 204px;
+}
+
+.finish .finish_wrapper .finish_round {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 118px;
+    height: 118px;
+    background-color: #B4E2FF;
+    border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_description {
+    color: #EFEFEF;
+    margin-top: 25px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.gift {
+    min-height: 560px;
+    padding: 48px 0 88px 0;
+    background-color: #EFEFEF;
+    text-align: center;
+}
+
+
+.gift .gift_text {
+    width: 1161px;
+    margin-top: 45px;
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400
+}
+
+.gift .gift_btn {
+    margin-top: 45px;
+}
+
+.webinar {
+    padding: 85px 0 51px 0;
+    text-align: center;
+}
+
+.webinar .first_webinar_title {
+    margin-top: 36px;
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.webinar .second_webinar_title {
+    margin-top: 25px;
+    color: #299CBD;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+    text-transform: uppercase;
+
+}
+
+.webinar .third_webinar_title {
+    margin-top: 25px;
+    color: #4A4A4A;
+    font-family: Roboto;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
 }
